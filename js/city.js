@@ -14,7 +14,7 @@ cityCanvas.appendChild(renderer.domElement);
 
 // load the model
 let model;
-loader.load('../model/city.glb', function (gltf) {
+loader.load('./model/city.glb', function (gltf) {
     model = gltf.scene;
     scene.add(model);
 }, undefined, function (error) {
