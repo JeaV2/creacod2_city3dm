@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'SF Digital Readout';
+    src: url(../fonts/sf_digital_readout/sf_digital_readout_heavy.ttf);
+}
+
+@font-face {
+    font-family: 'SF Digital Readout Medium';
+    src: url(../fonts/sf_digital_readout/sf_digital_readout_medium.ttf);
+}
+
+body {
+    color: #00E713FF;
+    background-color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#top {
+    height: 10vh;
+    width: 80vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'SF Digital Readout', monospace;
+    font-size: 6rem;
+}
+
+#mid {
+    height: 80vh;
+    width: 90vw;
+
+    overflow: hidden;
+
+    border: 0.5rem solid #00E713FF;
+    border-radius: 1rem;
+}
+#bottom {
+    height: 10vh;
+    width: 80vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'SF Digital Readout Medium', monospace;
+    font-size: 3rem;
+}
